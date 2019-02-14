@@ -6,13 +6,12 @@ describe('Weather app home page', function() {
     beforeAll(function () {
         homePage = new HomePage();
         browser.waitForAngularEnabled(false);
-        homePage.go();
 
     });
 
-    // afterAll(function () {
-    //     browser.driver.quit();
-    // });
+    beforeEach(function () {
+        homePage.go();
+    });
 
     it('Has Сurrent weather and forecast - OpenWeatherMap as title', function() {
         expect(homePage.getTitle()).toBe('Сurrent weather and forecast - OpenWeatherMap')
