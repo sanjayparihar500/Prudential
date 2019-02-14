@@ -6,3 +6,6 @@ Navigate to ui_tests folder
 run the commnad -protractor conf.js
 Above command will run all the test
 Note: YOU NEED JAVASCRIPT ECMA6 SUPPORT FOR RUNNING THIS TEST
+
+
+FOR ANY ISSUES REFER -http://www.protractortest.org/#/
