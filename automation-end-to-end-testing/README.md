@@ -8,4 +8,4 @@ Above command will run all the test
 Note: YOU NEED JAVASCRIPT ECMA6 SUPPORT FOR RUNNING THIS TEST
 
 
-FOR ANY ISSUES REFER -http://www.protractortest.org/#/
+FOR ANY ISSUES REFFER -http://www.protractortest.org/#/
