@@ -6,13 +6,11 @@ describe('Weather app home page', function() {
     beforeAll(function () {
         homePage = new HomePage();
         browser.waitForAngularEnabled(false);
-        homePage.go();
-
     });
 
-    // afterAll(function () {
-    //     browser.driver.close();
-    // });
+    beforeEach(function () {
+        homePage.go();
+    });
 
     it('Displays Not found result for invalid city name', function() {
         homePage.getSearchBox().sendKeys("khgllajgla")
