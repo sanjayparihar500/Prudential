@@ -1,0 +1,40 @@
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+out
+.shelf/
+.idea/
+
+# Vagrant
+.vagrant/
+
+# Python
+__pycache__/
+
+# Pugbat
+pugbat.data*
+*.log
+pugbat_results.*
+pugbat.json
+tmp/
+
+# NPM
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Test Output File
+console_info.json
+
+# Protractor
+ui_tests/protractor*.bak
+ui_tests/reports/
+
+# jasmine2-protractor-utils
+ui_tests/htmlReports
+ui_tests/screenshots
+
+.env
+yarn.lock
+Berksfile.lock
